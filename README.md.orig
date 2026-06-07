@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LithoInv — Lithology-constrained 3D joint inversion of gravity and magnetics using closed surface volumes
 
 From voxel models to geological contact surfaces.
@@ -62,12 +63,6 @@ cd build\release
 
 ---
 
-## Repository
-
-https://github.com/TBag-ui/LithoInv3D
-
----
-
 ## How to Cite
 
 > Thomas Bagley. LithoInv: Lithology-constrained 3D inversion of gravity and
@@ -95,3 +90,7 @@ Copyright (c) 2026 Thomas Bagley
 
 Consulting and custom development are available.
 Contact: [bagleyt0@gmail.com](mailto:bagleyt0@gmail.com)
+=======
+# LithoInv3D
+Lithology-constrained 3D joint inversion of gravity and magnetics using closed surface volumes. From voxel models to geological contact surfaces.
+>>>>>>> 42b7d34 (Initial commit)

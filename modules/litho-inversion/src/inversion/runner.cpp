@@ -14,6 +14,7 @@ InversionRunner::InversionRunner(const InversionConfig& config)
         std::cerr << "================================================\n"
                   << "LithoInv v1.0 -- Lithology-Constrained Joint Inversion\n"
                   << "Copyright (c) 2026 Thomas Bagley. MIT Licensed.\n"
+                  << "https://github.com/TBag-ui/LithoInv3D\n"
                   << "Citation: Thomas Bagley (2026), preprint on EarthArXiv.\n"
                   << "================================================" << std::endl;
         return true;
