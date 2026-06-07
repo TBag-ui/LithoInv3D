@@ -62,3 +62,4 @@ Makefile.Release
 *.tex
 *.pdf
 eartharxiv_submission_v1/
+*.log
