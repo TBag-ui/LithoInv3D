@@ -1,0 +1,86 @@
+==============================================================================================================
+FLYING FOX DEPOSIT — ESTIMATED 1D PHYSICAL PARAMETERS (Surface to Basement)
+Collins et al. (2012) — Forrestania Greenstone Belt, Yilgarn Craton, WA
+==============================================================================================================
+IMPORTANT: No petrophysical measurements are reported in the paper. All values are ESTIMATES based on
+mineral assemblages + typical Archean greenstone-belt rock properties. Should be ground-truthed with
+wireline logs, lab measurements, or rock-property databases before use in inversion.
+
+Surface = ~1,470 mRL   |   Regional dip = ~62° to east   |   Ore shoots plunge 5-10° SE
+--------------------------------------------------------------------------------------------------------------
+Depth (m)  | mRL        | Lithology                          | Density  | Mag Susc    | Remanence  | Notable
+from surf  | (approx)   |                                    | (g/cm³)  | (SI ×10⁻³)  | (Q-ratio)  | Features
+--------------------------------------------------------------------------------------------------------------
+    0–10   | 1470–1460  | Overburden / Regolith              |  1.8–2.0 |    0.0–0.1  |  none      | Deep weathering; laterite/clay/saprolite; negligible response
+   10–120  | 1460–1350  | Granitic Intrusion                 |  2.62–2.72|    0.1–5.0  |  <0.2      | UNMETAMORPHOSED; massive qtz-fsp-bt ± mag ± tur; mag content variable → patchy susceptibility; resistive; SURFACE DOMINANT from 0 to ~120 m
+  120–250  | 1350–1220  | Hanging-Wall Sedimentary Rocks     |  2.72–2.82|    0.1–1.0  |  <0.3      | Bt-Grt schist ± GRAPHITE ± py; CONDUCTIVE (graphite); more biotite + garnet than FW sediments; central belt outcrop where granite absent
+  250–340  | 1220–1130  | Tholeiitic Basalt (Zone 3 upper)   |  2.85–3.00|    0.5–5.0  |  0.2–1.0   | Act-Pl-Bt-Chl ± Mag; relict pillow textures; thicker units than komatiites; moderate density + mag
+  340–355  | 1130–1115  | Interflow Sedimentary Rocks (1)    |  2.65–2.75|    0.5–5.0  |  <0.3      | Qtz-Fsp ± Mag ± Py; <5m thick; MAGNETITE + PYRITE present; first of three interflow markers
+  355–420  | 1115–1050  | Komatiitic Basalt + Noncumulate Komatiite | 2.90–3.05|    1.0–10   |  0.3–1.5   | Thin alternating flows; Act-Chl-Bt ± Mag (basalt) / Tr-Chl-metam.Ol ± Mag (komatiite); serpentinization adds magnetite
+  420–435  | 1050–1035  | Interflow Sedimentary Rocks (2)    |  2.65–2.75|    0.5–5.0  |  <0.3      | Second interflow marker; magnetite + pyrite
+  435–500  | 1035–970   | Tholeiitic Basalt + Komatiitic Basalt | 2.85–3.05|    0.5–10   |  0.2–1.5   | Mixed basalt-komatiite package; variable magnetite
+  500–515  |  970–955   | Interflow Sedimentary Rocks (3)    |  2.65–2.75|    0.5–5.0  |  <0.3      | Third interflow marker; base of Zone 3
+  515–545  |  955–925   | Noncumulate Komatiite (A-zone)     |  2.88–3.02|    2.0–20   |  0.5–2.0   | Tr-Chl-metam.Ol ± Cum ± Mag; flow top of compound komatiite; spinifex rarely preserved; serpentinite magnetite
+  545–565  |  925–905   | Pyroxenite Lens                    |  3.10–3.30|    0.5–5.0  |  0.2–0.5   | Tr-Cum-Chl; fractionated lens within B-zone; HIGH DENSITY; pinches out laterally (may be absent off-axis)
+  565–630  |  905–840   | Mesocumulate Komatiite (B-zone)    |  2.95–3.15|    5.0–35   |  0.5–3.0   | Metam.Ol-Chl-Tr ± Mag; cumulate-rich; strong serpentinization → HIGH MAGNETIC; hosts disseminated sulfides at base
+  630–650  |  840–820   | Orthocumulate Komatiite            |  3.00–3.20|   10.0–45   |  1.0–4.0   | Metam.Ol-Chl-Tr-Tlc ± Mag; olivine-rich → most serpentinization → STRONGEST MAGNETIC in komatiite sequence; base of ultramafic pile
+  650–655  |  820–815   | Disseminated Ni Sulfides           |  3.30–3.80|   10.0–50   |  1.0–5.0   | Po+Pn+Py+Mag in cumulate host; 3–5m halo; CONDUCTIVE + DENSE + MAGNETIC; discontinuous; directly overlies massive ore
+  655–665  |  815–805   | MASSIVE Ni SULFIDES (Ore Horizon)  |  3.80–4.50|   50–250+   |  2.0–15.0  | Po (70-100%) + Pn + Py + Cpy + Mag; 2–20m thick; VERY DENSE + VERY CONDUCTIVE + STRONGLY MAGNETIC; pyrrhotite carries strong remanence (Q >> 1 possible for monoclinic Po); 11 dismembered shoots; strike N, dip steep E, plunge shallow SE; 4.76% Ni grade
+  665–850+ |  805–620+  | Footwall Sedimentary Rocks         |  2.65–2.75|    0.1–2.0  |  <0.3      | Qtz-Pl-Ms ± Sil ± Grt ± Mag ± Py; quartzofeldspathic metasediments; intercalated minor basalt; pyrrhotite/pyrite elevated within 3m of ore contact (stringer sulfides)
+    850+   |  <620      | Basement Gneiss                    |  2.70–2.85|    0.1–1.0  |  <0.5      | Deepest unit; poorly characterized; shown on cross-sections
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+STRUCTURALLY EMPLACED REPEAT UNITS (not in stratigraphic order — granite-hosted ore along faults)
+==============================================================================================================
+
+Granite-hosted Massive Sulfides (T0/T1 upper, T4 upper):
+  - At granite / FW-sedimentary rock contact (F4 fault, dip ~60°E)
+  - Depth variable: ~500–1000 m from surface (~800–400 mRL)
+  - Same physical parameters as massive sulfides above (ρ 3.80–4.50, κ 50–250+, Q 2–15)
+  - Breccia texture: granite clasts in sulfide matrix or vice versa
+  - Distinctive: ore ENTIRELY SEPARATED from ultramafic host
+
+T5 Pipe (granite-encapsulated ore):
+  - Massive sulfides almost entirely enveloped by granite + pegmatite
+  - Offset ~20m east of main T5 shoot along F3 shear
+  - ≤20m wide, ~230m strike extent
+  - Same physical parameters as massive sulfides
+
+Stringer & Vein Sulfides (in FW sediments):
+  - ≤3m from komatiite/FW-sediment contact; mm to cm scale
+  - Density only slightly elevated from host FW sediments
+  - Likely sub-resolution for surface geophysics unless dense vein network
+
+==============================================================================================================
+ESTIMATION BASIS
+==============================================================================================================
+Density:         Mineral assemblage → typical rock densities from literature (e.g., pyrrhotite 4.6, pentlandite 5.0,
+                 pyrite 5.0, olivine 3.2-3.4, tremolite 2.9-3.2, plagioclase 2.6-2.8, quartz 2.65, biotite 2.8-3.1)
+
+Mag Suscept:     Mineral assemblage → typical SI ranges (e.g., magnetite 1000-5000, monoclinic pyrrhotite 1-10,
+                 hexagonal pyrrhotite ~0.1, pyrite 0.1, silicates ~0). Komatiite values elevated due to
+                 serpentinization (olivine → serpentine + magnetite). Granite variable (± magnetite).
+
+Remanence (Q):   Koenigsberger ratio (M_rem / M_ind). Pyrrhotite-rich massive sulfides can have Q >> 1.
+                 Serpentinized ultramafics can carry moderate remanence (magnetite after olivine).
+                 Proterozoic dolerite dike may carry strong thermal remanence (not separately listed —
+                 crosscuts everything, E-W trend, similar parameters to basalt with higher remanence).
+
+==============================================================================================================
+CAVEATS FOR GEOPHYSICAL MODELLING
+==============================================================================================================
+1.  This 1D column is a SIMPLIFICATION. The real geometry is complex: F3 thrusts duplicate/omit sections,
+    granite intrudes along faults to variable depths, and ore shoots are offset up to 300m.
+
+2.  The ore shoots are thin (2–20m) and steeply dipping. Surface geophysics will see them as thin,
+    near-vertical conductive/magnetic plates, not thick horizontal layers.
+
+3.  Graphite in HW sediments is a potential false-positive conductor — it may look like ore in EM/MT data.
+
+4.  Remanence direction in pyrrhotite ore may differ significantly from the present-day field,
+    especially given the complex deformation and thermal history.
+
+5.  ALL numbers are estimates. They should be treated as priors for inversion, not hard constraints.
+    Seek petrophysical measurements from drill core before committing to a final model.
+==============================================================================================================

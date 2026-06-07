@@ -1,0 +1,166 @@
+DUPLICATE CODE TRACKING — LithoInvert3D Restructuring
+=========================================================
+Date: 2026-05-24
+Purpose: Track all known code duplicates across the original codebase.
+         When fixing bugs, CHECK ALL COPIES — the bug may have been
+         copy-pasted. The AUTHORITATIVE copy should be the one kept
+         in the new modules/ structure.
+
+NOTE: This file is a HISTORICAL RECORD from the pre-modularized codebase
+      cleanup (completed 2026-05-24). The directory paths referenced below
+      (src/forward/, Inversion_Cluster_API/, project_Forrestania/, examples/)
+      no longer exist. All duplicates have been consolidated into modules/.
+
+----------------------------------------------------------------------
+1. SIDE-WALL BOUNDARY EDGE CONSTRUCTION (6 COPIES)
+   Severity: HIGH — bugs fixed in one copy won't reach others
+   Authoritative: NEW — extract into modules/litho-core/geometry.h
+----------------------------------------------------------------------
+
+Copy A: src/forward/gravity_forward.cpp lines 541-595
+  Function: gravityPolyhedron() — simple value-return version
+  Notes: Edge detection + faceNagyContribution for side walls
+
+Copy B: src/forward/gravity_forward.cpp lines 667-707
+  Function: gravityPolyhedronWithGradient() — Z-only gradient version
+  Notes: Same algorithm + accumulateGravFacetGrads calls
+
+Copy C: src/forward/gravity_forward.cpp lines 754-800+
+  Function: gravityPolyhedronWithFullGradient() — XYZ gradient version
+  Notes: Same algorithm + 3-axis accumulateGravFacetGrads calls
+
+Copy D: src/forward/magnetic_forward.cpp lines 165-220
+  Function: magneticPolyhedron() — simple value-return version
+  Notes: Same boundary-detection pattern, different face contribution fn
+
+Copy E: src/forward/magnetic_forward.cpp lines 257-310
+  Function: magneticPolyhedronWithGradient() — Z-only gradient version
+  Notes: Same as D + accumulateFacetGrads
+
+Copy F: src/forward/magnetic_forward.cpp lines 790-840
+  Function: magneticPolyhedronWithFullGradient() — XYZ gradient version
+  Notes: Same as E + 3-axis accumulateFacetGrads
+
+RELATED (different algorithm, same purpose):
+  src/io/exporters.cpp lines 463-555
+  Functions: extractBoundaryLoops() + stitchLoop()
+  Purpose: Boundary loop extraction for closed-volume TS export
+  Notes: Different approach — walks connected components of boundary
+         edges rather than processing individual edges. Produces
+         ordered loops for stitching rather than individual quads.
+
+----------------------------------------------------------------------
+2. TS FILE GENERATION (4 IMPLEMENTATIONS)
+   Severity: MEDIUM — format inconsistencies possible
+   Authoritative: modules/litho-io (the InversionExporter version
+                  which produces the Forrestania final/ output)
+----------------------------------------------------------------------
+
+Copy A: src/io/exporters.cpp lines 116-150
+  Function: InversionExporter::exportTS()
+  Format: GOCAD TSurf 1, TFACE keyword, std::scientific precision(8)
+  Notes: This is the PRODUCTION version. Forrestania final/*.ts files
+         were produced by this (via exportAll).
+
+Copy B: Inversion_Cluster_API/surface_export.h lines 60-91
+  Function: write_ts()
+  Format: GOCAD TSurf 1, TRIANGLES keyword, std::fixed precision(3)
+  Notes: Different keyword (TRIANGLES vs TFACE), different precision.
+         Used by Python scripts for standalone export.
+
+Copy C: project_Forrestania/api/surface_export.h
+  Notes: BYTE-FOR-BYTE IDENTICAL to Copy B.
+         Delete this — forrestania should import from cluster_api.
+
+Copy D: LithoSeed/_export.py lines 7-23
+  Function: write_contact_ts()
+  Format: GOCAD TSurf 1, TFACE keyword, :.6f formatting
+  Notes: Python implementation. Uses ContactSurface dataclass (numpy
+         arrays) rather than SurfaceMesh.
+
+----------------------------------------------------------------------
+3. OBJ FILE GENERATION (3 IMPLEMENTATIONS)
+   Severity: MEDIUM
+   Authoritative: modules/litho-io (InversionExporter::exportOBJ)
+----------------------------------------------------------------------
+
+Copy A: src/io/exporters.cpp lines 87-111
+  Function: InversionExporter::exportOBJ()
+  Notes: Production version. Used in exportAll.
+
+Copy B: Inversion_Cluster_API/surface_export.h lines 32-54
+  Function: write_obj()
+  Notes: Standalone version with density/susc header comments.
+
+Copy C: project_Forrestania/api/surface_export.h
+  Notes: BYTE-FOR-BYTE IDENTICAL to Copy B.
+
+Copy D: LithoSeed/_export.py lines 26-34
+  Function: write_contact_obj()
+  Notes: Python equivalent.
+
+----------------------------------------------------------------------
+4. Inversion_Cluster_API/ ↔ project_Forrestania/api/ (4 FILES)
+   Severity: HIGH — byte-identical copies, will diverge over time
+   Authoritative: Inversion_Cluster_API/ (was developed first)
+----------------------------------------------------------------------
+
+Files that are byte-for-byte identical:
+  - Inversion_Cluster_API/_surface.py  ≡  project_Forrestania/api/_surface.py
+  - Inversion_Cluster_API/surface_export.h  ≡  project_Forrestania/api/surface_export.h
+  - Inversion_Cluster_API/_cluster.py  ≈  project_Forrestania/api/_cluster.py  (likely)
+  - Inversion_Cluster_API/_io.py       ≈  project_Forrestania/api/_io.py       (likely)
+
+Resolution: project_Forrestania/ should import from cluster_api package
+            instead of maintaining copies. Delete project_Forrestania/api/.
+
+----------------------------------------------------------------------
+5. GRAVITY FORWARD — Closed polyhedron construction (3 copies)
+   Severity: MEDIUM — top/bottom/side-wall assembly pattern
+----------------------------------------------------------------------
+
+Copy A: gravityPolyhedron() — simple gravity
+Copy B: gravityPolyhedronWithGradient() — Z-only analytical gradient
+Copy C: gravityPolyhedronWithFullGradient() — XYZ analytical gradient
+
+These three functions share:
+  - Top face iteration (same triangle winding)
+  - Bottom face iteration with reversed winding
+  - Side-wall boundary edge detection + stitching
+  - Scale factor computation
+
+Only difference is whether gradient accumulation arrays are passed.
+
+Resolution: Template on gradient policy, or extract shared inner loops.
+
+----------------------------------------------------------------------
+6. MAGNETIC FORWARD — Same pattern as gravity (3 copies)
+   Severity: MEDIUM
+----------------------------------------------------------------------
+
+Copy A: magneticPolyhedron() — simple TMI
+Copy B: magneticPolyhedronVectorWithGradient() — Z-only gradient
+Copy C: magneticPolyhedronVectorWithFullGradient() — XYZ gradient
+
+Same triplication pattern as gravity forward.
+
+----------------------------------------------------------------------
+7. EXAMPLE MAINS (3 separate directories)
+   Severity: LOW
+----------------------------------------------------------------------
+
+- examples/voiseys_bay/main.cpp — original, flat top, no padding
+- examples/voiseys_bay_lithosplitter/main.cpp — Lithosplitter CSV support
+- examples/voiseys_bay_lithosplitter/main_from_csv.cpp — INI config mode
+- examples/voiseys_bay_realistic/main.cpp — realistic parameters
+
+Resolution: Consolidate into apps/voiseys_bay/ with a single main.cpp
+            supporting all modes via INI config.
+
+======================================================================
+MIGRATION RULES
+======================================================================
+1. When migrating to modules/, only copy the AUTHORITATIVE version.
+2. Test the authoritative version before copying.
+3. Check ALL copies for bug fixes that might exist in only one copy.
+4. The Forrestania final/ output is the GOLD STANDARD for exporters.

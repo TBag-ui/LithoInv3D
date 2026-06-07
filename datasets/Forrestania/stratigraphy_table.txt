@@ -1,0 +1,119 @@
+============================================================================================================================================================================================================================================================
+FLYING FOX DEPOSIT — STRATIGRAPHIC COLUMN (Surface to Basement)
+Collins et al. (2012), Economic Geology v.107 pp.1433-1455
+Forrestania Greenstone Belt, Yilgarn Craton, Western Australia
+============================================================================================================================================================================================================================================================
+
+Notes:
+  - Surface elevation ~1,470 mRL. All depths approximate; absolute values not given in the paper.
+  - Dip: regional S1a foliation ~62° toward 090°; steepened S1b at contacts ~72-79° toward 092°.
+  - F3 shallow thrusts (≤10° dip SE) offset stratigraphy by up to 300 m — so contacts are NOT planar layer-cake.
+  - Granite intruded along F2/F3 faults during D4 extension; it repeats at depth around ore shoots beyond the surface cap.
+  - NO density, magnetic susceptibility, or resistivity values are reported in the paper. Proxy minerals are noted instead.
+  - "Mag" = magnetic mineral present; "Cond" = conductive mineral present; "—" = no data / not applicable.
+
+============================================================================================================================================================================================================================================================
+COLUMNS:
+  A = Row
+  B = Depth (m approx. from surface)
+  C = mRL range (approx.)
+  D = Zone
+  E = Lithology / Unit
+  F = Thickness (approx.)
+  G = Protolith / Occurrence
+  H = Metamorphic Mineral Assemblage (amphibolite facies)
+  I = Density Proxy
+  J = Magnetic Proxy
+  K = Conductance / EM Proxy
+  L = Key Notes
+============================================================================================================================================================================================================================================================
+
+Row | Depth (m) | mRL Range  | Zone          | Lithology / Unit                  | Thickness        | Protolith / Occurrence                  | Metamorphic Mineral Assemblage (peak)              | Density Proxy   | Magnetic Proxy         | Conductance Proxy      | Key Notes
+----|-----------|------------|---------------|-----------------------------------|------------------|-----------------------------------------|----------------------------------------------------|-----------------|------------------------|------------------------|-----------
+ 1  | 0 – ?     | ~1470–?    | —             | Overburden / Regolith             | ? (deep)         | Deep weathering profile                 | —                                                  | Low             | —                      | —                      | Deep weathering noted across Forrestania belt; no thickness given
+ 2  | 0 – ~120  | 1470–1350  | Intrusive     | Granitic Intrusion                | ≤120 m (to 200 m max in mafic/ultramafic) | Qtz-Fsp-Bt granite ± granodiorite ± pegmatite | Qtz-Fsp-Bt ± Ms ± Ser ± Grt ± Mag ± Tur            | Low–Mod (2.60–2.75 typical granite) | ± Magnetite (variable)  | — (resistive)          | UNMETAMORPHOSED; massive texture; dominates surface to ~1,350 mRL; thicker where pooled at shear-zone intersections; hosts entrained Ni sulfides at FW-sediment contact (T0/T1 upper, T4 upper, T5 pipe)
+ 3  | 0 – >1000 | 1470–?     | Intrusive     | Proterozoic Dolerite Dike         | ? (dike)         | Widgiemooltha dike swarm, ca. 2.4 Ga    | Qtz-Fsp-Hbl-Bt (unmetamorphosed)                   | Mod–High        | Magnetite possible      | —                      | E-W–trending; crosscuts ALL units; last magmatic event; may localize along earlier faults; brittle D5 offsets ≤5 m
+ 4a | ~120–?    | 1350–?     | Zone 4        | Hanging-Wall Sedimentary Rocks    | ?                | Pelitic/psammitic schist (biotite-garnet schist) | Bt-Chl-Qtz-Grt ± Graphite ± Py                     | Mod (2.70–2.80) | ± Pyrrhotite/Pyrite     | GRAPHITE-bearing (conductive!) | Central portion of Forrestania belt; more biotite + garnet + graphite than FW sediments; quartz veins with graphite
+ 4b | ~120–?    | 1350–?     | Zone 3 (top)  | Tholeiitic Basalt                 | ? (thick units)  | Basalt flows; relict pillow textures     | Act-Pl-Bt-Chl ± Hbl ± Qtz                           | Mod–High (2.80–3.00) | ± Magnetite             | — (resistive)          | Pillow rims preserved as 1–2 cm biotite veins; thicker than komatiite units in this zone
+ 4c | ~120–?    | 1350–?     | Zone 3        | Interflow Sedimentary Rocks (1)   | <5 m             | Sulfidic chert / clastic sediment        | Qtz-Fsp ± Ms ± Ser ± Bt ± Am ± Mag ± Py            | Mod              | Magnetite + Pyrite      | Pyrite (weakly conductive) | First of 3 interflow sed. units; marks volcanic quiescence
+ 4d | ~120–?    | 1350–?     | Zone 3        | Komatiitic Basalt                 | ?                | High-Mg basalt                          | Act-Chl-Bt ± Tr ± Pl ± Srp ± Mag                    | Mod–High         | ± Magnetite             | —                      | —
+ 4e | ~120–?    | 1350–?     | Zone 3        | Noncumulate Komatiite (thin flow) | ? (thin)         | Komatiite flow top / A-zone             | Chl-Tr-metam. Ol ± Cum (H₂O) or Chl-Tr-metam. Ol-Tlc-En ± Cum (CO₂) | Mod–High (2.90–3.10) | ± Magnetite (serpentinization) | —                | Thin flows alternating with basalt; rarely preserved spinifex
+ 5a | repeat cycles of 4b–4e — multiple thin komatiite-basalt couplets with interflow sediments (3 sedimentary units recognized)
+ 5b | —          | —          | Zone 3 (base) | Interflow Sedimentary Rocks (3)   | <5 m             | Sulfidic chert / clastic sediment        | Qtz-Fsp ± Ms ± Ser ± Bt ± Am ± Mag ± Py            | Mod              | Magnetite + Pyrite      | Pyrite                  | Third interflow sediment; base of Zone 3
+ 6  | ? – ?      | ? – ?      | Zone 2 (top)  | Noncumulate Komatiite (A-zone)    | Part of ~80 m total | Spinifex-textured komatiite (flow top)  | Tr-Chl-metam. Ol ± Cum (H₂O) or Chl-Tr-metam. Ol-Tlc-En ± Cum (CO₂) | Mod–High (2.90–3.10) | ± Magnetite (serp.)     | —                      | Top of compound komatiite flow; rarely preserved relict spinifex textures
+ 7  | ? – ?      | ? – ?      | Zone 2        | Pyroxenite Lens                   | ? (lens, pinches out laterally) | Fractionated pyroxenite within B-zone    | Tr-Cum (-Act)-Chl (H₂O) or Tr-Cum-Chl ± Act (CO₂)   | High (≥3.10)     | —                      | —                      | Tremolite-chlorite rock; centralized within mesocumulate; indicates flow ponded in blocked lava tube
+ 8  | ? – ?      | ? – ?      | Zone 2 (mid)  | Mesocumulate Komatiite (B-zone)   | Part of ~80 m total | Olivine mesocumulate                    | Metam. Ol-Chl-Tr ± Cum (H₂O) or Metam. Ol-Chl-Tr-Tlc-Ath-En ± Cum (CO₂) | High (≥3.00)     | ± Magnetite (serp.)     | —                      | Coarser-grained cumulate; hosts disseminated sulfides near base
+ 9  | ? – ?      | ? – ?      | Zone 2 (base) | Orthocumulate Komatiite           | Part of ~80 m total | Olivine orthocumulate                   | Metam. Ol-Chl-Tr ± Cum (H₂O) or Metam. Ol-Chl-Tr-Tlc-Ath-En ± Cum (CO₂) | High (≥3.00)     | ± Magnetite (serp.)     | —                      | Base of komatiite flow; directly overlies ore horizon
+ 10 | ? – ?      | ~1300–400  | ORE HORIZON   | Disseminated Ni Sulfides          | 3–5 m            | Primary magmatic sulfide halo           | Bt + Tr blades in sulfide matrix                    | High (≥3.50)     | Pyrrhotite + Magnetite  | PYRRHOTITE (highly conductive) | Discontinuous; directly overlies massive sulfides; hosted in cumulate komatiite; type 1 ore per Lesher & Keays (2002)
+ 11 | ? – ?      | ~1300–400  | ORE HORIZON   | MASSIVE Ni SULFIDES               | 2–5 m (max 10–20 m) | Type 1 contact ore; 11 discrete ore shoots | Po (70–100%) + Pn + Py (≤30%) + Cpy (≤2–3%) + Mag + Chr (≤2–3%); biotite + tremolite blades | Very High (≥4.00) | Pyrrhotite + Magnetite + Chromite | PYRRHOTITE (very highly conductive) | 2.4 Mt @ 4.76% Ni (114 kt Ni metal); strikes N, dips steeply E, plunges 5–10° SE; structurally dismembered; MSS reversion at >600°C; sulfides ductile → smeared along shears; 85% of ore is massive style
+ 12 | ? – ?      | ~1300–?    | Zone 1        | Footwall Sedimentary Rocks        | ?                | Quartzofeldspathic metasedimentary rocks | Qtz-Pl-Ms ± Ser ± Bt ± Sil ± Grt ± Am ± And ± Py     | Mod (2.65–2.75)  | ± Pyrrhotite/Pyrite (near ore) | ± Pyrite (weak)     | Intercalated with minor basaltic rocks; hosts stringer/vein sulfides ≤3 m from komatiite contact; boudinaged locally; rafts emplaced into komatiite during D2
+ 13 | ? – ?      | ? – ?      | Basement      | Gneiss                            | ?                | Gneissic basement                       | ?                                                 | ?               | ?                      | ?                      | Deepest unit; shown on cross-sections only; no petrographic detail in paper
+
+============================================================================================================================================================================================================================================================
+REPEAT UNITS (Granite-hosted ore — structurally emplaced, NOT primary stratigraphy)
+============================================================================================================================================================================================================================================================
+
+Row  | Depth (m) | mRL Range  | Host           | Lithology / Unit                  | Thickness    | Occurrence                                      | Key Minerals                                         | Density Proxy   | Magnetic Proxy     | Conductance Proxy      | Notes
+-----|-----------|------------|----------------|-----------------------------------|--------------|-------------------------------------------------|------------------------------------------------------|-----------------|--------------------|------------------------|-------
+ R1  | variable  | ~1000–400  | Granite contact | Massive Ni Sulfides (granite-hosted) | 2–20 m    | At granite / FW-sedimentary rock contact (F4 fault) | Po+Pn+Py+Cpy+Mag; granite clasts in sulfide matrix   | Very High       | Po + Mag           | PYRRHOTITE (highly conductive) | T0/T1 upper, T4 upper ore shoots; breccia & stringer sulfides; formed during D4 granite dilation
+ R2  | variable  | ~800–500   | Granite         | T5 Pipe (massive sulfides in granite) | ≤20 m wide, 230 m strike | Almost entirely enveloped by granite & pegmatite | Po+Pn+Py+Cpy+Mag; granite clasts                     | Very High       | Po + Mag           | PYRRHOTITE (highly conductive) | Offset ~20 m east of T5 along F3 shear; entrained in granitic magma during D4
+ R3  | variable  | —          | FW Sediments    | Stringer & Vein Sulfides          | mm–cm scale  | ≤3 m into FW sediments from ore contact; parallel or crosscutting S1b/S3 | Po+Pn+Py+Bt ± Qtz alteration halo                     | High            | Po ± Py            | Pyrrhotite (conductive) | Structurally injected during D1b–D3 shearing
+ R4  | variable  | —          | FW Sediments    | Breccia Sulfides (FW-hosted)      | cm–2 m       | Angular FW sedimentary clasts in sulfide matrix | Po+Pn+Py; angular to rounded FW sed. clasts            | High            | Po                 | Pyrrhotite (conductive) | At F2 shear zones and F4 fault contacts
+
+============================================================================================================================================================================================================================================================
+MINERAL ABBREVIATIONS
+============================================================================================================================================================================================================================================================
+Act = actinolite    Am = amphibole      And = andalusite     Ath = anthophyllite   Bt = biotite      Cal = calcite
+Cb  = carbonate     Chl = chlorite      Chr = chromite       Cpy = chalcopyrite    Cum = cummingtonite Di = diopside
+En  = enstatite     Fsp = feldspar      Fuc = fuchsite       Grt = garnet          Hbl = hornblende   Mag = magnetite
+Ms  = muscovite     MSS = monosulfide solid solution         Ol = olivine          Pl = plagioclase   Pn = pentlandite
+Po  = pyrrhotite    Py = pyrite         Qtz = quartz         Ser = sericite        Sil = sillimanite  Srp = serpentine
+Tlc = talc          Tr = tremolite      Tur = tourmaline
+
+============================================================================================================================================================================================================================================================
+METAMORPHIC & STRUCTURAL SUMMARY
+============================================================================================================================================================================================================================================================
+Peak metamorphism:      655 ± 30°C, 4.0 ± 1.0 kbar (upper amphibolite facies)
+S1a regional foliation: Dip ~62° → 090° (N-striking, layer-parallel)
+S1b (flattened zones):  Dip ~72–79° → 092° (at FW sediment/ore/komatiite and basalt/HW sediment contacts)
+F2 shear zones:         Dip ~70–75° → 092°; normal dip-slip; L1 mineral lineation plunges 62–79° → east
+F3 thrusts:             Dip ≤10° → SE (up to 30° at depth); reverse; segment orebody into 11 shoots; ≤300 m offset
+F4 faults:              Dip ~60° → east; brittle-ductile normal; granite contact; hosts T0/T1 upper + T4 upper ore
+D5 brittle faults:      Dip ~82° → 342°; strike-slip + minor normal; ≤5 m offset
+Granite emplacement:    D4, post-peak-metamorphism, exploited F2/F3; pooled at "triple points"; back-rotated stratigraphy
+Dolerite dike:          D5, ca. 2.4 Ga Widgiemooltha swarm, E-W trend; locally intrudes along F2
+
+============================================================================================================================================================================================================================================================
+PRACTICAL NOTES FOR GEOPHYSICAL INVERSION / FORWARD MODELLING
+============================================================================================================================================================================================================================================================
+1. SURFACE COVER: Granite from 0 to ~120 m (and deeper along faults). Deep weathering throughout. Any surface geophysics
+   must account for a thick resistive granite cap and weathered overburden.
+
+2. CONDUCTIVITY TARGETS (strongest → weakest):
+   - Massive/breccia/stringer Ni sulfides (pyrrhotite-dominant, very conductive, but thin: 2–20 m)
+   - Hanging-wall sediments (graphite-bearing — potentially a significant stratiform conductor)
+   - Interflow & FW sediments with pyrite (weakly conductive, thin <5 m)
+
+3. MAGNETIC TARGETS:
+   - Serpentinized ultramafics (serpentine + magnetite after olivine) — komatiites and komatiitic basalts
+   - Massive sulfides (pyrrhotite + magnetite)
+   - Granite (variable magnetite content)
+   - Tholeiitic basalts (magnetite-bearing)
+   - Interflow sediments (magnetite-bearing)
+
+4. DENSITY CONTRASTS:
+   - Highest: massive sulfides (>>4.0 g/cm³) and disseminated sulfides (≥3.5)
+   - High: komatiites, pyroxenite, basalts (2.80–3.10+)
+   - Moderate: sedimentary rocks (2.65–2.80), granite (2.60–2.75)
+   - Lowest: overburden/regolith
+
+5. KEY CAVEATS:
+   - The stratigraphy is NOT a simple layer cake. F3 thrusts duplicate/omit sections, and granite intrudes along
+     fault planes deep into the sequence.
+   - Ore shoots are thin (2–5 m typically), steeply dipping, and plunging shallowly SE. They will NOT appear as
+     thick conductive bodies in EM/MT — likely thin conductor plates.
+   - The granite-FW sediment contact (F4 fault) hosts some of the largest ore shoots (T0/T1 upper, T4 upper).
+   - HW sediments with graphite are a potential false-positive EM target (conductive but barren).
+   - The dolerite dike crosscuts everything — a late, magnetically distinct linear feature.
+
+============================================================================================================================================================================================================================================================

@@ -1,0 +1,24 @@
+#pragma once
+
+#include <litho_invert/core/common.h>
+#include <litho_invert/surface/surface_mesh.h>
+#include <litho_invert/litho/litho_group.h>
+#include <litho_invert/litho/lithology_model.h>
+#include <litho_invert/forward/forward_model.h>
+#include <litho_invert/forward/gravity_forward.h>
+#include <litho_invert/forward/magnetic_forward.h>
+#include <litho_invert/em/em_data.h>
+#include <litho_invert/em/em_solver.h>
+#include <litho_invert/em/em_forward_model.h>
+#include <litho_invert/em/em_active_forward.h>
+#include <litho_invert/em/em_mt_forward.h>
+#include <litho_invert/core/stats.h>
+#include <litho_invert/inversion/joint_objective.h>
+#include <litho_invert/regularization/regularization.h>
+#include <litho_invert/regularization/smoothness.h>
+#include <litho_invert/inversion/constraint_handler.h>
+#include <litho_invert/inversion/objective.h>
+#include <litho_invert/inversion/optimizer.h>
+#include <litho_invert/inversion/lbfgsb_optimizer.h>
+#include <litho_invert/inversion/runner.h>
+#include <litho_invert/io/io.h>

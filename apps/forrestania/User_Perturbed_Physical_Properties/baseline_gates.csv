@@ -1,0 +1,6 @@
+cluster_name,density_min,density_max,susc_min,susc_max
+Granite_Gneiss,2.650,2.665,0.0,0.003
+Felsic_Intermediate,2.665,2.675,0.0,0.008
+Mafic_Upper,2.675,2.688,0.001,0.018
+Mafic_Lower,2.688,2.700,0.005,0.030
+Massive_Sulfide,2.698,2.740,0.010,0.080 

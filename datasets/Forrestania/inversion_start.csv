@@ -1,0 +1,6 @@
+cluster_id,working_name,sample_count,density_median_gcc,density_p10_gcc,density_p90_gcc,susceptibility_median_SI,susceptibility_p10_SI,susceptibility_p90_SI,has_measured_density,has_measured_susceptibility,remanence_magnitude_Am,remanence_inclination_deg,remanence_declination_deg,has_measured_remanence
+0,Overburden_Regolith,10,1.90,1.72,2.08,5.0e-05,0.0e+00,1.0e-04,no,no,0.0,-66.0,0.0,no
+1,Granitic_Intrusion,50,2.67,2.58,2.76,2.5e-03,5.0e-04,7.5e-03,no,no,0.05,-66.0,0.0,no
+2,Sedimentary_Rocks,30,2.72,2.63,2.81,1.0e-03,1.0e-04,3.0e-03,no,no,0.05,-66.0,0.0,no
+3,Mafic_Ultramafic,80,2.98,2.84,3.16,1.6e-02,5.0e-03,4.0e-02,no,no,1.2,-60.0,10.0,no
+4,Massive_Ni_Sulfides,20,4.15,3.75,4.50,1.5e-01,5.0e-02,3.0e-01,no,no,35.0,-45.0,30.0,yes

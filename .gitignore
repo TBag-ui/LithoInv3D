@@ -1,0 +1,64 @@
+# Build artifacts
+build/release/
+build/debug/
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+*.egg
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output data (generated at runtime)
+apps/forrestania/presentation/
+apps/forrestania/inversion_output/
+
+# Temp files
+temp_*
+*.tmp
+
+# Large vendored libraries (install separately)
+vendor/eigen/
+
+# Additional generated files
+build/inprogress/
+build/starting/
+build/resolved_config.ini
+build/*.svg
+inprogress/
+resolved_config.ini
+starting/
+
+# qmake build artifacts (generated - do not commit)
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+
+# Preprints and submissions (review before publishing)
+*.tex
+*.pdf
+eartharxiv_submission_v1/

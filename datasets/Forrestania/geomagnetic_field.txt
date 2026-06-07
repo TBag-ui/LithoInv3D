@@ -1,0 +1,45 @@
+================================================================================
+FLYING FOX DEPOSIT — EARTH'S MAGNETIC FIELD (IGRF-13)
+Forrestania Greenstone Belt, Western Australia
+================================================================================
+Location:     32.60°S, 119.70°E  (~350 km ESE of Perth, WA)
+Elevation:    0 m (geoid)
+Source:       IGRF-13 model (computed via ppigrf)
+================================================================================
+
+Epoch:        2025.0                    2026.0                  Annual Change
+-------------------------------------------------------------------------------
+Declination   D = -0.14°                D = -0.10°              dD/dt = +0.04°/yr
+              (0.14° west of TN)        (0.10° west of TN)
+
+Inclination   I = -66.19°               I = -66.16°             dI/dt = +0.03°/yr
+              (upward, SH)              (upward, SH)
+
+Total Field   F =  58,871 nT            F =  58,874 nT          dF/dt =  +3 nT/yr
+
+Horizontal    H =  23,768 nT            H =  23,798 nT
+
+North (X)     X =  23,768 nT            X =  23,798 nT
+East  (Y)     Y =     -57 nT            Y =     -41 nT
+Down  (Z)     Z = -53,859 nT            Z = -53,850 nT          (dZ/dt =  +9 nT/yr)
+================================================================================
+
+VECTOR SUMMARY (Epoch 2026.0, recommended for current work):
+  Field vector (E,N,D):  B = [ -41, 23798, -53850 ] nT
+  Direction cosines:      B̂ = [ -0.0007, 0.4042, -0.9146 ]
+  ||B|| = 58,874 nT
+
+PRACTICAL VALUES:
+  Ambient field direction at site:  steeply upward (-66.2°, SH), ~0.1° west of TN
+  Magnetic-to-grid correction:      negligible declination (~0°)
+  Effective inducing field:         58,874 nT at I = -66.2°
+
+NOTES:
+  - Negative inclination = field lines point UPWARD (Southern Hemisphere).
+  - Declination is essentially zero (~0.1° west) — magnetic north ≈ true north.
+  - Secular variation is small (<0.1°/yr, <10 nT/yr) — field stable over survey
+    timescales.
+  - For forward modelling: use I = -66.2°, D = -0.1°, F = 58,874 nT.
+  - If remanence is present (likely in pyrrhotite ore and serpentinized komatiites),
+    total magnetization direction will deviate from the induced field direction.
+================================================================================
