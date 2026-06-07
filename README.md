@@ -87,7 +87,7 @@ Copyright (c) 2026 Thomas Bagley
 
 ## Trademark
 
-**LithoInv** is a trademark of Thomas Bagley.
+**LithoInv**™ is a trademark of Thomas Bagley.
 
 ---
 
