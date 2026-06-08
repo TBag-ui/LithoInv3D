@@ -28,7 +28,7 @@ CLUSTER_CONFIGS = {
         "volumes_rel": "../volumes/combination_clusters",
         "output_subdir": "./inprogress_combination",
         "enable_property_inversion": True,
-        "property_inversion_interval": 1,
+        "property_inversion_interval": 100,
         "property_inversion_max_iter": 10,
     },
     "user": {
@@ -36,7 +36,7 @@ CLUSTER_CONFIGS = {
         "volumes_rel": "../volumes/user_clusters",
         "output_subdir": "./inprogress_user",
         "enable_property_inversion": False,
-        "property_inversion_interval": 1,
+        "property_inversion_interval": 100,
         "property_inversion_max_iter": 10,
     },
 }
@@ -83,7 +83,7 @@ gravity_uncertainty = 0.000000
 [inversion]
 solver = lbfgsb
 max_iterations = 250
-tolerance = 1e-05
+tolerance = 1e-10
 lambda = 1.0
 omega = 10.0
 lbfgs_history = 20
@@ -101,7 +101,7 @@ property_inversion_max_iter = {cfg['property_inversion_max_iter']}
 property_damping = 0.010000
 gncg_cg_max_iter = 50
 gncg_cg_tolerance = 0.000001
-disable_line_search = false
+disable_line_search = true
 
 [magnetic]
 declination = -0.100000
